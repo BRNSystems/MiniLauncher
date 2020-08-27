@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MiniLauncher</string>
+    <string name="hint">Search</string>
+</resources>

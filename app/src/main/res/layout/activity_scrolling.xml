@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ScrollingActivity">
+
+    <ListView
+        android:id="@+id/apps"
+        android:layout_width="match_parent"
+        android:layout_marginTop="45dp"
+        android:layout_height="wrap_content"></ListView>
+
+    <EditText
+        android:id="@+id/searchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
